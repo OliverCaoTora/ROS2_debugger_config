@@ -1,0 +1,14 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name":"ROS Testing Modul",
+      "request": "launch",
+      "type":"cppdbg",
+      "cwd": "${workspaceFolder}",
+      // "miDebuggerServerAddress": "localhost:3000",
+      "program": "/home/sereact/git/sereact/sereact-conveyor-system/tests/ros_tests_ws/install/ros_topic_dynamic_load/lib/ros_topic_dynamic_load/ros_topic_dynamic_load",
+    }
+
+  ]
+}
