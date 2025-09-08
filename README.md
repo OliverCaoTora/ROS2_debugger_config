@@ -1,6 +1,6 @@
 This file shows how to setup vscode debugger for ROS2 cpp
 
-1. install neccessary package
+1. install neccessary package, like ROS2 "[Robot Developer Extention](https://marketplace.visualstudio.com/items?itemName=Ranch-Hand-Robotics.rde-pack)"
 2. create corresponding workspace
 3. pkg cmake list can see the sample
 4. setting.json example

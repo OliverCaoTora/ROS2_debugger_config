@@ -7,8 +7,15 @@
       "type":"cppdbg",
       "cwd": "${workspaceFolder}",
       // "miDebuggerServerAddress": "localhost:3000",
-      "program": "/home/sereact/git/sereact/sereact-conveyor-system/tests/ros_tests_ws/install/ros_topic_dynamic_load/lib/ros_topic_dynamic_load/ros_topic_dynamic_load"
+      // "program": "/home/sereact/git/sereact/sereact-conveyor-system/tests/ros_tests_ws/install/ros_topic_dynamic_load/lib/ros_topic_dynamic_load/ros_topic_dynamic_load",
+      "program": "${workspaceFolder}/tests/ros_tests_ws/install/ros_topic_dynamic_load/lib/ros_topic_dynamic_load/ros_topic_dynamic_load"
+    },
+    {
+      "name": "ROS: Launch dynamic_load",
+      "type": "ros2",
+      "request": "launch",
+      "target": "/home/sereact/git/sereact/sereact-conveyor-system/tests/ros_tests_ws/src/ros_topic_dynamic_load/launch/my.launch.py"
     }
-
+  
   ]
 }
