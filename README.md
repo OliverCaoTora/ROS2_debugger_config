@@ -15,3 +15,9 @@ colcon build \
     -DCMAKE_EXPORT_COMPILE_COMMANDS=ON \
     --symlink-install
 '''
+7. environment settings:
+   Using command to load ros environment at first then start vscode
+   '''
+   source /opt/ros/humble/setup.zsh(or setup.bash)
+   source /（workspace path / (ros package work space path) / install/setup.zsh(or setup.bash)
+   '''
